@@ -175,3 +175,31 @@ h2 {
 .animated-button:hover::before {
   transform: translate(5px, 5px);
 }
+/*----------------media page-----------------*/
+.media-content {
+  color: black;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 95%;
+}
+.media-content .card-content {
+  width: 35%;
+  height: 50%;
+  margin: 20px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: relative;
+}
+.card-content .content-video {
+  object-fit: cover;
+  object-position: center;
+  height: 700px;
+  width: 100%;
+}
