@@ -2,6 +2,7 @@
   --header-color: white;
   --title-color: black;
   --text-color: black;
+  --background-color: rgb(37, 37, 37);
 }
 * {
   margin: 0;
@@ -18,30 +19,30 @@ a {
 }
 footer {
   padding: 2em;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(27, 27, 27);
   flex-direction: row;
   margin: auto;
   text-align: center;
 }
 body {
   color: var(--header-color);
+  background-color: var(--background-color);
   position: relative;
 }
 h1,
 h2,
 p {
   padding-top: 1em;
+  color: white;
 }
 h1 {
   text-align: center;
   font-family: "Impact";
-  color: black;
   font-size: 4em;
   margin: auto;
 }
 h2 {
   text-align: center;
-  color: black;
   font-size: 4em;
   margin: auto;
   padding-bottom: 1em;
@@ -108,7 +109,7 @@ section {
   background-repeat: no-repeat;
   background-position: top left;
   position: relative;
-  background-color: black;
+  background-color: var(--background-color);
 }
 .top-container .background-image {
   object-fit: cover;
@@ -198,7 +199,7 @@ section {
   border-radius: 15px;
   color: white;
   background-color: black;
-  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 50px rgba(255, 255, 255, 0.5);
   object-fit: cover;
   overflow: hidden;
   background-repeat: no-repeat;
